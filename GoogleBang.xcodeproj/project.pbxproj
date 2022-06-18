@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB4E61B285E3B2D00B92D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E61A285E3B2D00B92D1A /* AppDelegate.swift */; };
+		EBB4E61F285E3B2D00B92D1A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E61D285E3B2D00B92D1A /* Main.html */; };
+		EBB4E621285E3B2D00B92D1A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E620285E3B2D00B92D1A /* Icon.png */; };
+		EBB4E623285E3B2D00B92D1A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E622285E3B2D00B92D1A /* Style.css */; };
+		EBB4E625285E3B2D00B92D1A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E624285E3B2D00B92D1A /* Script.js */; };
+		EBB4E627285E3B2D00B92D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E626285E3B2D00B92D1A /* ViewController.swift */; };
+		EBB4E62A285E3B2D00B92D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E628285E3B2D00B92D1A /* Main.storyboard */; };
+		EBB4E62C285E3B2F00B92D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E62B285E3B2F00B92D1A /* Assets.xcassets */; };
+		EBB4E634285E3B2F00B92D1A /* GoogleBang Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EBB4E633285E3B2F00B92D1A /* GoogleBang Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EBB4E639285E3B2F00B92D1A /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E638285E3B2F00B92D1A /* SafariExtensionHandler.swift */; };
+		EBB4E63B285E3B2F00B92D1A /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4E63A285E3B2F00B92D1A /* SafariExtensionViewController.swift */; };
+		EBB4E63E285E3B2F00B92D1A /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E63D285E3B2F00B92D1A /* script.js */; };
+		EBB4E640285E3B2F00B92D1A /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E63F285E3B2F00B92D1A /* ToolbarItemIcon.pdf */; };
+		EBB4E643285E3B2F00B92D1A /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB4E641285E3B2F00B92D1A /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB4E635285E3B2F00B92D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB4E60F285E3B2D00B92D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB4E632285E3B2F00B92D1A;
+			remoteInfo = "GoogleBang Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBB4E64B285E3B2F00B92D1A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EBB4E634285E3B2F00B92D1A /* GoogleBang Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EBB4E617285E3B2D00B92D1A /* GoogleBang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB4E61A285E3B2D00B92D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBB4E61E285E3B2D00B92D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		EBB4E620285E3B2D00B92D1A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EBB4E622285E3B2D00B92D1A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		EBB4E624285E3B2D00B92D1A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		EBB4E626285E3B2D00B92D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBB4E629285E3B2D00B92D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB4E62B285E3B2F00B92D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB4E62D285E3B2F00B92D1A /* GoogleBang.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleBang.entitlements; sourceTree = "<group>"; };
+		EBB4E62E285E3B2F00B92D1A /* GoogleBang.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleBang.entitlements; sourceTree = "<group>"; };
+		EBB4E633285E3B2F00B92D1A /* GoogleBang Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GoogleBang Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB4E638285E3B2F00B92D1A /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		EBB4E63A285E3B2F00B92D1A /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		EBB4E63D285E3B2F00B92D1A /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		EBB4E63F285E3B2F00B92D1A /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		EBB4E642285E3B2F00B92D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		EBB4E644285E3B2F00B92D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB4E645285E3B2F00B92D1A /* GoogleBang_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleBang_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB4E614285E3B2D00B92D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB4E630285E3B2F00B92D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB4E60E285E3B2D00B92D1A = {
+			isa = PBXGroup;
+			children = (
+				EBB4E619285E3B2D00B92D1A /* GoogleBang */,
+				EBB4E637285E3B2F00B92D1A /* GoogleBang Extension */,
+				EBB4E618285E3B2D00B92D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB4E618285E3B2D00B92D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4E617285E3B2D00B92D1A /* GoogleBang.app */,
+				EBB4E633285E3B2F00B92D1A /* GoogleBang Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB4E619285E3B2D00B92D1A /* GoogleBang */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4E61A285E3B2D00B92D1A /* AppDelegate.swift */,
+				EBB4E626285E3B2D00B92D1A /* ViewController.swift */,
+				EBB4E628285E3B2D00B92D1A /* Main.storyboard */,
+				EBB4E62B285E3B2F00B92D1A /* Assets.xcassets */,
+				EBB4E62D285E3B2F00B92D1A /* GoogleBang.entitlements */,
+				EBB4E62E285E3B2F00B92D1A /* GoogleBang.entitlements */,
+				EBB4E61C285E3B2D00B92D1A /* Resources */,
+			);
+			path = GoogleBang;
+			sourceTree = "<group>";
+		};
+		EBB4E61C285E3B2D00B92D1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4E61D285E3B2D00B92D1A /* Main.html */,
+				EBB4E620285E3B2D00B92D1A /* Icon.png */,
+				EBB4E622285E3B2D00B92D1A /* Style.css */,
+				EBB4E624285E3B2D00B92D1A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EBB4E637285E3B2F00B92D1A /* GoogleBang Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4E638285E3B2F00B92D1A /* SafariExtensionHandler.swift */,
+				EBB4E63A285E3B2F00B92D1A /* SafariExtensionViewController.swift */,
+				EBB4E641285E3B2F00B92D1A /* SafariExtensionViewController.xib */,
+				EBB4E644285E3B2F00B92D1A /* Info.plist */,
+				EBB4E645285E3B2F00B92D1A /* GoogleBang_Extension.entitlements */,
+				EBB4E63C285E3B2F00B92D1A /* Resources */,
+			);
+			path = "GoogleBang Extension";
+			sourceTree = "<group>";
+		};
+		EBB4E63C285E3B2F00B92D1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4E63D285E3B2F00B92D1A /* script.js */,
+				EBB4E63F285E3B2F00B92D1A /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB4E616285E3B2D00B92D1A /* GoogleBang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB4E64C285E3B2F00B92D1A /* Build configuration list for PBXNativeTarget "GoogleBang" */;
+			buildPhases = (
+				EBB4E613285E3B2D00B92D1A /* Sources */,
+				EBB4E614285E3B2D00B92D1A /* Frameworks */,
+				EBB4E615285E3B2D00B92D1A /* Resources */,
+				EBB4E64B285E3B2F00B92D1A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB4E636285E3B2F00B92D1A /* PBXTargetDependency */,
+			);
+			name = GoogleBang;
+			productName = GoogleBang;
+			productReference = EBB4E617285E3B2D00B92D1A /* GoogleBang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB4E632285E3B2F00B92D1A /* GoogleBang Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB4E648285E3B2F00B92D1A /* Build configuration list for PBXNativeTarget "GoogleBang Extension" */;
+			buildPhases = (
+				EBB4E62F285E3B2F00B92D1A /* Sources */,
+				EBB4E630285E3B2F00B92D1A /* Frameworks */,
+				EBB4E631285E3B2F00B92D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleBang Extension";
+			productName = "GoogleBang Extension";
+			productReference = EBB4E633285E3B2F00B92D1A /* GoogleBang Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB4E60F285E3B2D00B92D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EBB4E616285E3B2D00B92D1A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EBB4E632285E3B2F00B92D1A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EBB4E612285E3B2D00B92D1A /* Build configuration list for PBXProject "GoogleBang" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB4E60E285E3B2D00B92D1A;
+			productRefGroup = EBB4E618285E3B2D00B92D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB4E616285E3B2D00B92D1A /* GoogleBang */,
+				EBB4E632285E3B2F00B92D1A /* GoogleBang Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB4E615285E3B2D00B92D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB4E621285E3B2D00B92D1A /* Icon.png in Resources */,
+				EBB4E62A285E3B2D00B92D1A /* Main.storyboard in Resources */,
+				EBB4E625285E3B2D00B92D1A /* Script.js in Resources */,
+				EBB4E61F285E3B2D00B92D1A /* Main.html in Resources */,
+				EBB4E62C285E3B2F00B92D1A /* Assets.xcassets in Resources */,
+				EBB4E623285E3B2D00B92D1A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB4E631285E3B2F00B92D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB4E643285E3B2F00B92D1A /* SafariExtensionViewController.xib in Resources */,
+				EBB4E640285E3B2F00B92D1A /* ToolbarItemIcon.pdf in Resources */,
+				EBB4E63E285E3B2F00B92D1A /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB4E613285E3B2D00B92D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB4E627285E3B2D00B92D1A /* ViewController.swift in Sources */,
+				EBB4E61B285E3B2D00B92D1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB4E62F285E3B2F00B92D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB4E63B285E3B2F00B92D1A /* SafariExtensionViewController.swift in Sources */,
+				EBB4E639285E3B2F00B92D1A /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB4E636285E3B2F00B92D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB4E632285E3B2F00B92D1A /* GoogleBang Extension */;
+			targetProxy = EBB4E635285E3B2F00B92D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBB4E61D285E3B2D00B92D1A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB4E61E285E3B2D00B92D1A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		EBB4E628285E3B2D00B92D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB4E629285E3B2D00B92D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBB4E641285E3B2F00B92D1A /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB4E642285E3B2F00B92D1A /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB4E646285E3B2F00B92D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB4E647285E3B2F00B92D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EBB4E649285E3B2F00B92D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GoogleBang Extension/GoogleBang_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K8L8P3SCH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoogleBang Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GoogleBang Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "seb.l.j-hotmail.com.GoogleBang.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EBB4E64A285E3B2F00B92D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GoogleBang Extension/GoogleBang_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K8L8P3SCH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoogleBang Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GoogleBang Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "seb.l.j-hotmail.com.GoogleBang.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EBB4E64D285E3B2F00B92D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoogleBang/GoogleBang.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K8L8P3SCH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GoogleBang;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "seb.l.j-hotmail.com.GoogleBang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EBB4E64E285E3B2F00B92D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoogleBang/GoogleBang.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K8L8P3SCH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GoogleBang;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "seb.l.j-hotmail.com.GoogleBang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB4E612285E3B2D00B92D1A /* Build configuration list for PBXProject "GoogleBang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB4E646285E3B2F00B92D1A /* Debug */,
+				EBB4E647285E3B2F00B92D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB4E648285E3B2F00B92D1A /* Build configuration list for PBXNativeTarget "GoogleBang Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB4E649285E3B2F00B92D1A /* Debug */,
+				EBB4E64A285E3B2F00B92D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB4E64C285E3B2F00B92D1A /* Build configuration list for PBXNativeTarget "GoogleBang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB4E64D285E3B2F00B92D1A /* Debug */,
+				EBB4E64E285E3B2F00B92D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB4E60F285E3B2D00B92D1A /* Project object */;
+}
